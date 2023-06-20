@@ -9,7 +9,7 @@ int z2 = Coordinate("z", "B");
 int Coordinate(string coorName, string pointName)
 {
     Console.Write($"Введите координату {coorName} точки {pointName}: ");
-    return Convert.ToInt16(Console.ReadLine());
+    return int.Parse(Console.ReadLine());
 }
 
 double Decision(double x1, double x2,
